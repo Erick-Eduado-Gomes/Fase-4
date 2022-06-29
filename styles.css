@@ -1,0 +1,75 @@
+:root {
+    --padding: 20px;
+}
+
+html, body {
+    height: 100%;
+}
+html{
+    scroll-margin: 0px;
+}
+
+body {
+    padding: var(--padding);
+}
+
+header{
+    display: flex;
+    background-color: darkmagenta;
+    min-height: 200px;
+}
+h1{
+    color: aliceblue;
+}
+
+h2{
+    margin-top: 100px;
+    color: aliceblue;
+}
+div.container-sm{
+    margin-top: 50px;
+    background-color: darkgray;
+    min-height: 100px;
+    font-size: larger;
+}
+button.movimento_mes{
+    background-color: transparent;
+  
+    border-color: grey;
+    
+}
+
+div.container-md{
+    margin-top: 50px;
+    background-color: darkgray;
+    min-height: 200px;
+    font-size: larger;
+}
+
+div.container-lg{
+    margin-top: 0px;
+    background-color: darkgray;
+    min-height: 300px;
+    font-size: larger;
+}
+footer{
+    margin-top: 50px;
+
+
+}
+
+div.btn-toolbar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.pagina{
+    margin-left: 110px;
+}
+button{
+    margin-left: 10px;
+    margin-right: 50px;
+    min-width: 150px;
+    min-height: 50px;
+    font-size:medium;
+}
